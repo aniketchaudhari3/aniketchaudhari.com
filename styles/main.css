@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap');
+
+* {
+  font-family: Inter;
+  overflow-x: hidden;
+}
+
+.bg-black {
+  background-color: #000 !important;
+  color: white;
+}
+
+a {
+  color: white !important;
+}
+
+.nav-link {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.hero-text {
+  margin-left: 130px;
+  margin-top: 200px;
+}
+
+.content-section h1 {
+  margin-left: 130px;
+}
+
+.hero-section {
+  height: calc(80vh - 50px);
+}
+
+.footer-links {
+  margin-top: 200px !important;
+  margin-left: 130px;
+}
+
+/* only big screens */
+@media only screen and (min-width: 900px) {
+  #navbarSupportedContent {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .project-section{
+    height: 100vh !important;
+  }
+
+  .footer-section{
+    height: 80vh !important;
+  }
+}
+
+/* only small screens */
+@media only screen and (max-width: 900px) {
+  .hero-text {
+    margin-top: 100px;
+    margin-left: 20px;
+  }
+
+  .content-section h1,h3 {
+    margin-left: 20px;
+  }
+
+  .footer-links {
+    margin-top: 50px !important;
+    margin-left: 20px;
+    padding-bottom: 30px;
+  }
+
+  .project-section{
+    margin-bottom: 70px;
+  }
+
+  .hero-section {
+    height: calc(100vh - 50px) !important;
+  }
+
+  .navbar-nav {
+    margin-left: 30px;
+  }
+}
