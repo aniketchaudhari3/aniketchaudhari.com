@@ -28,6 +28,10 @@ a {
   margin-left: 130px;
 }
 
+.footer-section h3{
+  margin-left: 130px;
+}
+
 .hero-section {
   height: calc(80vh - 50px);
 }
@@ -45,11 +49,11 @@ a {
   }
 
   .project-section{
-    height: 100vh !important;
+    margin-bottom: 50px;
   }
 
   .footer-section{
-    height: 80vh !important;
+    margin-top: 40px;
   }
 }
 
@@ -72,6 +76,10 @@ a {
 
   .project-section{
     margin-bottom: 70px;
+  }
+
+  .footer-section h3{
+    margin-left: 20px;
   }
 
   .hero-section {
