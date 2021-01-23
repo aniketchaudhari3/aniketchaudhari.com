@@ -126,10 +126,45 @@ a {
   .project-description {
     min-height: calc(100vh - 50px);
   }
+
+  .hero-image-mobile{
+    display: none;
+  }
 }
 
 /* only small screens */
 @media only screen and (max-width: 900px) {
+
+  .more-images{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .hero-image-desktop{
+    display: none;
+  }
+
+  .project-description h1{
+    margin-left: 20px;
+  }
+
+  .project-description h5, h6{
+    margin-left: 20px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+
+  .project-description .cta-btn{
+    margin-left: 10px;
+  }
+
+
+  .project-card img, .project-description img{
+    height: 55vw;
+  }
+
   .projects-display h1 {
     margin-top: 50px;
     margin-left: 30px;

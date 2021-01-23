@@ -9,8 +9,8 @@ export default function ProjectSection() {
     image
   }) => {
     return (
-      <div className="col-md-5">
-        <img className="col-md-11 mb-4" src={image} />
+      <div className="project-card col-md-5 mt-3">
+        <img className="col-md-11 col-sm-8 mb-4" src={image} />
         <h5>{title}</h5>
         <h4 className="fw-bold mb-3">{desc}</h4>
         <a href={link} className="project-detail"><h5>See Project Detail</h5></a>

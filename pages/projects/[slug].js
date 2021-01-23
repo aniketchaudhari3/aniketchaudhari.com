@@ -33,7 +33,7 @@ export default function Projects() {
             <a target="_blank" className="cta-btn" href={project?.livelink}><button className="btn mt-3 mx-3 cta-hire-me">View Live</button></a>
           </div>
           <div className="col-md-6">
-            <img className="col-md-11" src={project?.heroimage} />
+            <img className="hero-image-desktop col-md-11" src={project?.heroimage} />
           </div>
         </div>
         <div className="row mt-5">
@@ -46,7 +46,8 @@ export default function Projects() {
           </div>
         </div>
         <div className="row mt-5 justify-content-center">
-          <div className="col-md-8">
+          <div className="more-images col-md-8 justify-content-center">
+            <img className="hero-image-mobile col-md-12" src={project?.heroimage} />
             {project?.images?.length > 0 && project?.images?.map((item, index) => {
               return <img className="my-3 col-md-12" src={item} key={index} />
             })}

@@ -8,7 +8,6 @@ export default function Projects() {
     <>
       <Navbar />
       <div className="projects-display bg-black">
-        <h1>Projects I've worked on</h1>
         <ProjectSection />
         <Footer />
       </div>
