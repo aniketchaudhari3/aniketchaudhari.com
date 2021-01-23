@@ -13,16 +13,13 @@ export default function Navbar() {
             <a className="nav-link" href="/">HOME</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/about">ABOUT</a>
+            <a className="nav-link" href="/projects">PROJECTS</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/services">SERVICES</a>
+            <a className="nav-link" target="_blank" href="https://aniketchaudhari.hashnode.dev/">BLOG</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/resources">BLOG</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="/#contact">CONTACT</a>
+            <a className="nav-link" href="#contact">CONTACT</a>
           </li>
         </ul>
       </div>

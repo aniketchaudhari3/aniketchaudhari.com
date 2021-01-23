@@ -1,0 +1,63 @@
+[
+  {
+    "name": "mClinic",
+    "title":"The next generation healthcare platform",
+    "description": "mClinic is a next-generation platform connecting patients with doctors anywhere in the world using modern technology. mClinic's platform provides doctors with a dashboard to easily manage their daily workflows including managing and attending appointments, keeping records of patient's vitals and much more. Patients can easily book appointments using the platform and have a one-to-one video calling session with the doctor.",
+    "heroimage":"/screenshots/mclinic-main.png",
+    "images":[
+      "/screenshots/mclinic-1.png",
+      "/screenshots/mclinic-2.png"
+    ],
+    "stack":[
+      "Next.js and React.js",
+      "Java, AWS Serverless",
+      "AWS EC2",
+      "AWS Amplify",
+      "AWS S3",
+      "AWS SES",
+      "DynamoDB, GraphQl",
+      "Node.js, Express.js and WebSockets for Video Calling."
+    ],
+    "livelink":"https://dev.mclinic.co",
+    "roles":[
+      "- Building Doctor and Patient Frontend by referring to UI mockups",
+      "- Integrating AWS Amplify and GraphQL API in the web application",
+      "- Building Video Calling functionality from scratch using Node.js, Express.js and Websockets",
+      "- Integrating Social Signin and OAuth"
+    ]
+  },
+  {
+    "name":"JustJobsNG",
+    "title":"Nigeria's leading Job Portal and recruitment platform",
+    "description":"JustJobsNg is Nigeria's leading job portal and recruitment platform that serves over 100,000+ job seekers and 1500 recruiters every month. JustJobsNG's recruitment platform provides recruiters with an efficient way to find and hire the right candidate for the role.",
+    "heroimage":"/screenshots/justjobsng-main.png",
+    "images":[
+      "/screenshots/justjobsng-1.png",
+      "/screenshots/justjobsng-2.png"
+    ],
+    "stack":[
+      "Job Portal",
+      "- HTML, CSS and JS - Frontend",
+      "- PHP and Node.js for Backend",
+      "- MySQL and MongoDB for Database",
+      "- Python and Node for Web Scrapers",
+      "",
+      "Internal Admin Panel",
+      "- React.js",
+      "- Node.js and Express.js for Backend",
+      "- MongoDB for Database"
+    ],
+    "livelink":"https://justjobsng.com",
+    "roles":[
+      "- Rebuilding the job portal from scratch using PHP",
+      "- Creating user flows ",
+      "- Building Web Scrapers using Python and Node.js",
+      "- Building Internal Admin Panel from scratch using MERN Stack",
+      "- Integrating internal and third-party APIs in the web app",
+      "- Creating Microservices in Node.js",
+      "- Server Administration",
+      "- Configuration of Version Control System and CI/CD",
+      "- Integrating push notifications using OneSignal"
+    ]
+  }
+]
