@@ -30,7 +30,7 @@ export default function Projects() {
                 return <h5 key={index} className="role-items">{item}</h5>
               })}
             </div>
-            <a target="_blank" className="cta-btn" href={project?.livelink}><button className="btn mt-3 mx-3 cta-hire-me">View Live</button></a>
+            {project?.livelink !== 'na' && <a target="_blank" className="cta-btn" href={project?.livelink}><button className="btn mt-3 mx-3 cta-hire-me">View Live</button></a>}
           </div>
           <div className="col-md-6">
             <img className="hero-image-desktop col-md-11" src={project?.heroimage} />

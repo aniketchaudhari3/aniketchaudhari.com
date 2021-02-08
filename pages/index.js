@@ -9,7 +9,7 @@ export default function Home() {
     <div style={{ background: '#000', height: '100% !important' }} className="bg-black">
       <Navbar />
       <HeroSection />
-      <ProjectSection />
+      <ProjectSection mainPage={false} />
       <Footer />
     </div>
   )
@@ -25,6 +25,14 @@ function HeroSection() {
         <a href="/projects"><button className="btn mt-3 cta-view-work">View my work</button></a>
         <a href="#contact"><button className="btn mt-3 mx-3 cta-hire-me">Hire Me</button></a>
       </div>
+    </div>
+  )
+}
+
+function Skills(){
+  return (
+    <div className="bg-black  ">
+      <h1>Tech I'm familiar with</h1>
     </div>
   )
 }

@@ -13,17 +13,17 @@ function MyApp({ Component, pageProps }) {
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <script src="https://use.fontawesome.com/23f43657a5.js"></script>
-        {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-SRY2B654Q4"></script> */}
-        {/* <script
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-9BNGNHDMND"></script>
+        <script
           dangerouslySetInnerHTML={{
             __html: `
-            window.dataLayer = window.dataLayer || []
-            function gtag() { dataLayer.push(arguments) }
-            gtag('js', new Date())
-            gtag('config', 'G-SRY2B654Q4')
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-9BNGNHDMND');
         `,
           }}
-        /> */}
+        />
       </Head>
       <Component {...pageProps} />
     </>

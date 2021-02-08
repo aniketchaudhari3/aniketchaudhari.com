@@ -38,12 +38,13 @@
     "stack":[
       "Job Portal",
       "- HTML, CSS and JS - Frontend",
-      "- PHP and Node.js for Backend",
+      "- PHP and Node.js Microservices for Backend",
       "- MySQL and MongoDB for Database",
       "- Python and Node for Web Scrapers",
+      "- Apache Server and Nginx as a reverse proxy",
       "",
       "Internal Admin Panel",
-      "- React.js",
+      "- React.js, ReactStrap and Bootswatch library for Frontend",
       "- Node.js and Express.js for Backend",
       "- MongoDB for Database"
     ],
@@ -57,7 +58,31 @@
       "- Creating Microservices in Node.js",
       "- Server Administration",
       "- Configuration of Version Control System and CI/CD",
-      "- Integrating push notifications using OneSignal"
+      "- Integrating push notifications using OneSignal",
+      "- Creating webhooks and monitoring server uptime using Uptime Monitor"
+    ]
+  },
+  {
+    "name":"KiranaZone",
+    "title":"Grocery E-Commerce Startup",
+    "description":"KiranaZone.com was a grocery e-commerce hyperlocal delivery startup started in 2017 by me and my friends. KiranaZone operated for 1 year in Nandurbar and Dhule cities.",
+    "heroimage":"/screenshots/kiranazone-main.png",
+    "images":[
+    ],
+    "stack":[
+      "- HTML, Bootstrap CSS and jQuery for Frontend",
+      "- PHP for Dackend",
+      "- MySQL for Database",
+      "- TextLocal API for sending SMS",
+      "- Tawk.to chatbot "
+    ],
+    "livelink":"na",
+    "roles":[
+      "- Fixing and maintaining Frontend code ",
+      "- Working on backend in PHP",
+      "- Creating graphic creatives ",
+      "- Designing flyers and posters for offline distribution",
+      "- Running Marketing campaigns online on Facebook and Instagram"
     ]
   }
 ]

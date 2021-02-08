@@ -8,7 +8,7 @@ export default function Projects() {
     <>
       <Navbar />
       <div className="projects-display bg-black">
-        <ProjectSection />
+        <ProjectSection mainPage={true} />
         <Footer />
       </div>
     </>
